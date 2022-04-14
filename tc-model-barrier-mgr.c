@@ -8,6 +8,7 @@
 
 /*
  * Copyright (C) 2020 embedded brains GmbH (http://www.embedded-brains.de)
+ *               2022 Trinity College Dublin (http://www.tcd.ie)
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
