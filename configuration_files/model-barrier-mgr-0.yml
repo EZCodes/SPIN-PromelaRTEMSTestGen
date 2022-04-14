@@ -1,0 +1,45 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+build-type: test-program
+cflags: []
+copyrights:
+- Copyright (C) 2020 embedded brains GmbH (http://www.embedded-brains.de)
+- Copyright (C) 2022 Trinity College Dublin (www.tcd.ie)
+cppflags: []
+cxxflags: []
+enabled-by: true
+features: c cprogram
+includes: []
+ldflags: []
+links: []
+source:
+- testsuites/validation/ts-model-barrier-mgr-0.c
+- testsuites/validation/tc-model-barrier-mgr.c
+- testsuites/validation/tr-model-barrier-mgr-0.c
+- testsuites/validation/tr-model-barrier-mgr-1.c
+- testsuites/validation/tr-model-barrier-mgr-10.c
+- testsuites/validation/tr-model-barrier-mgr-11.c
+- testsuites/validation/tr-model-barrier-mgr-12.c
+- testsuites/validation/tr-model-barrier-mgr-13.c
+- testsuites/validation/tr-model-barrier-mgr-14.c
+- testsuites/validation/tr-model-barrier-mgr-15.c
+- testsuites/validation/tr-model-barrier-mgr-16.c
+- testsuites/validation/tr-model-barrier-mgr-17.c
+- testsuites/validation/tr-model-barrier-mgr-18.c
+- testsuites/validation/tr-model-barrier-mgr-19.c
+- testsuites/validation/tr-model-barrier-mgr-2.c
+- testsuites/validation/tr-model-barrier-mgr-20.c
+- testsuites/validation/tr-model-barrier-mgr-21.c
+- testsuites/validation/tr-model-barrier-mgr-3.c
+- testsuites/validation/tr-model-barrier-mgr-4.c
+- testsuites/validation/tr-model-barrier-mgr-5.c
+- testsuites/validation/tr-model-barrier-mgr-6.c
+- testsuites/validation/tr-model-barrier-mgr-7.c
+- testsuites/validation/tr-model-barrier-mgr-8.c
+- testsuites/validation/tr-model-barrier-mgr-9.c
+- testsuites/validation/tr-model-barrier-mgr.c
+stlib: []
+target: testsuites/validation/ts-model-barrier-mgr-0.exe
+type: build
+use-after:
+- validation
+use-before: []
